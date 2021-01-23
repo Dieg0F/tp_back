@@ -1,0 +1,30 @@
+{
+  "name": "tp_back",
+  "version": "1.0.0",
+  "description": "Backend Application for tp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dieg0F/tp_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dieg0F/tp_back/issues"
+  },
+  "homepage": "https://github.com/Dieg0F/tp_back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
